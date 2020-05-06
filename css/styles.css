@@ -1,0 +1,38 @@
+.row-header {
+  margin: 10px auto;
+  padding: 10px 50px; 
+  color: rgb(76, 19, 83);
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+  img {
+    border-radius: 50%;
+  }
+  h3 {
+    color:rgb(76, 19, 83);
+  }
+
+  h2 {
+    color:rgb(76, 19, 83);
+  }
+
+  p {
+    color:rgb(76, 19, 83);
+  }
+
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+
+body {
+  padding: 50px 0px 0px 0px;
+  background-color: rgb(195, 173, 231); 
+ }
+
