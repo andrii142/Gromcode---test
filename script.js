@@ -14,7 +14,8 @@ const and = ar.filter(n => {
   if (n % 2 == 0) {
   return true;
 }
-});
+});Do you want to visit friends?
+yes i want
 console.log(and);
 
 
@@ -26,9 +27,15 @@ const people = [
     { name: "Victor", birthDate: "1995-12-17"},
     { name: "Andrew", birthDate: "2001-12-17"}
 ];
-const andrew = people.filter(key => {
-  if (key.name === 'Andrew') {
-  return true;
+function searchByName(people) {
+   const andrew = [];
+   people.filter(function (key)
+   {
+     if (key.name === 'Andrew'){
+      andrew.push(key);
+     }
+   });
+   return andrew;  
 }
-});
-console.log(andrew);
+console.log(searchByName(people));
+
